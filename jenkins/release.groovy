@@ -1,9 +1,9 @@
 def prepare() {
-    echo "Prepare: ${whoAreYou}! You loaded this from Git!"
+    echo "Prepare: You loaded this from Git!"
 }
 
-def release(String whoAreYou) {
-    echo "Release: ${whoAreYou}! You loaded this from Git!"
+def release() {
+    echo "Release: You loaded this from Git!"
 }
 
 def clean() {
